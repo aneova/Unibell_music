@@ -27,7 +27,7 @@ export class AppComponent implements OnChanges{
     // Add more music objects as needed
   ];
   selectedTrack: Music | null = null;
-  title = 'untitled1';
+  title = 'UNIBELL';
 
   onRowClicked(row: Music): void {
     this.selectedTrack = row;
